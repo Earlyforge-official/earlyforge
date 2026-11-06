@@ -17,7 +17,7 @@ This is **not** a client for articles, briefs, or alerts — the public API
 never exposes those on any plan. Uses the global `fetch`, so it works in
 Node 18+ and in browsers with no other dependency.
 
-Full reference: [docs.earlyforge.ai/guides/api/javascript-sdk](https://docs.earlyforge.ai/guides/api/javascript-sdk).
+Full reference: [docs.earlyforge.ai/guides/api/javascript-sdk](https://docs.earlyforge.ai/guides/api/javascript-sdk). Source: [github.com/Earlyforge-official/earlyforge](https://github.com/Earlyforge-official/earlyforge/tree/main/sdk-js-earlyforge).
 
 ## Install
 

@@ -18,6 +18,11 @@
   },
   "license": "MIT",
   "homepage": "https://docs.earlyforge.ai/guides/api/javascript-sdk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Earlyforge-official/earlyforge.git",
+    "directory": "sdk-js-earlyforge"
+  },
   "engines": {
     "node": ">=18"
   },

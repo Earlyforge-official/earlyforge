@@ -4,6 +4,10 @@
   "type": "library",
   "license": "MIT",
   "homepage": "https://earlyforge.ai",
+  "support": {
+    "docs": "https://docs.earlyforge.ai/guides/api/php-sdk",
+    "source": "https://github.com/Earlyforge-official/earlyforge/tree/main/sdk-php-earlyforge"
+  },
   "require": {
     "php": ">=8.1",
     "ext-curl": "*",

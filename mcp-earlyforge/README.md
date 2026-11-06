@@ -2,7 +2,8 @@
 
 Wraps the [EarlyForge Trends API](https://docs.earlyforge.ai/guides/api/trends-api)
 as MCP tools so an AI agent can query EarlyForge's trend data directly,
-across both tiers of the `/v1/api/trends/*` prefix.
+across both tiers of the `/v1/api/trends/*` prefix. Source:
+[github.com/Earlyforge-official/earlyforge](https://github.com/Earlyforge-official/earlyforge/tree/main/mcp-earlyforge).
 
 **Pulse mirror** — free, any account, no plan required. An authenticated,
 verbatim mirror of the free, anonymous data already shown on
@@ -58,7 +59,7 @@ differs is which client file it goes in.
 ## Install
 
 ```bash
-cd tools/mcp-earlyforge
+cd mcp-earlyforge
 pip install -r requirements.txt
 ```
 
@@ -82,7 +83,7 @@ EARLYFORGE_API_KEY=ef_live_xxx python server.py
 One-liner (local stdio server, env var passed with `--env`):
 
 ```bash
-claude mcp add earlyforge-trends --env EARLYFORGE_API_KEY=ef_live_xxxxxxxxxxxxxxxx -- python /absolute/path/to/tools/mcp-earlyforge/server.py
+claude mcp add earlyforge-trends --env EARLYFORGE_API_KEY=ef_live_xxxxxxxxxxxxxxxx -- python /absolute/path/to/mcp-earlyforge/server.py
 ```
 
 - Use `-s project` instead of the default `-s local` to share the entry
@@ -102,7 +103,7 @@ Edit Config):
   "mcpServers": {
     "earlyforge-trends": {
       "command": "python",
-      "args": ["/absolute/path/to/tools/mcp-earlyforge/server.py"],
+      "args": ["/absolute/path/to/mcp-earlyforge/server.py"],
       "env": {
         "EARLYFORGE_API_KEY": "ef_live_xxxxxxxxxxxxxxxx"
       }
@@ -123,7 +124,7 @@ config — same shape as Claude Desktop's:
   "mcpServers": {
     "earlyforge-trends": {
       "command": "python",
-      "args": ["/absolute/path/to/tools/mcp-earlyforge/server.py"],
+      "args": ["/absolute/path/to/mcp-earlyforge/server.py"],
       "env": {
         "EARLYFORGE_API_KEY": "ef_live_xxxxxxxxxxxxxxxx"
       }
@@ -135,8 +136,9 @@ config — same shape as Claude Desktop's:
 ### VS Code (MCP extension) / other stdio-capable clients
 
 Any client that supports a local stdio MCP server takes the same three
-pieces of information: `command: python`, `args: ["/absolute/path/to/
-tools/mcp-earlyforge/server.py"]`, and the `EARLYFORGE_API_KEY` env var.
+pieces of information: `command: python`, `args:
+["/absolute/path/to/mcp-earlyforge/server.py"]`, and the
+`EARLYFORGE_API_KEY` env var.
 Consult your client's docs for where that JSON block goes.
 
 ## Error handling

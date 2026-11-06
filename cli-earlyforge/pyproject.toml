@@ -18,6 +18,7 @@ earlyforge = "earlyforge_cli.main:cli"
 [project.urls]
 Homepage = "https://earlyforge.ai"
 Documentation = "https://docs.earlyforge.ai/guides/api/trends-api"
+Source = "https://github.com/Earlyforge-official/earlyforge"
 
 [tool.setuptools.packages.find]
 include = ["earlyforge_cli*"]

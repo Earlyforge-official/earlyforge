@@ -16,7 +16,7 @@ same `/v1/api/trends/*` prefix:
 This is **not** a client for articles, briefs, or alerts — the public API
 never exposes those on any plan.
 
-Full reference: [docs.earlyforge.ai/guides/api/python-sdk](https://docs.earlyforge.ai/guides/api/python-sdk).
+Full reference: [docs.earlyforge.ai/guides/api/python-sdk](https://docs.earlyforge.ai/guides/api/python-sdk). Source: [github.com/Earlyforge-official/earlyforge](https://github.com/Earlyforge-official/earlyforge/tree/main/sdk-python-earlyforge).
 
 ## Install
 

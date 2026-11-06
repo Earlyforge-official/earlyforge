@@ -17,7 +17,7 @@ This is **not** a client for articles, briefs, or alerts — the public API
 never exposes those on any plan. Zero dependencies: uses `ext-curl`
 directly rather than pulling in an HTTP client library.
 
-Full reference: [docs.earlyforge.ai/guides/api/php-sdk](https://docs.earlyforge.ai/guides/api/php-sdk).
+Full reference: [docs.earlyforge.ai/guides/api/php-sdk](https://docs.earlyforge.ai/guides/api/php-sdk). Source: [github.com/Earlyforge-official/earlyforge](https://github.com/Earlyforge-official/earlyforge/tree/main/sdk-php-earlyforge).
 
 ## Install
 

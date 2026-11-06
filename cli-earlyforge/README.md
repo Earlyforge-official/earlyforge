@@ -13,7 +13,7 @@ under the same `/v1/api/trends/*` prefix:
   unlocked today, no more, no less.
 
 Not a CLI for articles, briefs, or alerts — the public API never exposes
-those on any plan. Full reference: [docs.earlyforge.ai/guides/api/cli](https://docs.earlyforge.ai/guides/api/cli).
+those on any plan. Full reference: [docs.earlyforge.ai/guides/api/cli](https://docs.earlyforge.ai/guides/api/cli). Source: [github.com/Earlyforge-official/earlyforge](https://github.com/Earlyforge-official/earlyforge/tree/main/cli-earlyforge).
 
 ## Install
 
