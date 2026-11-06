@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "earlyforge-cli"
+version = "0.1.0"
+description = "Command-line client for the EarlyForge Pulse API (free trend data, authenticated)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "EarlyForge" }]
+dependencies = ["click>=8.1.0", "httpx>=0.27.0"]
+
+[project.scripts]
+earlyforge = "earlyforge_cli.main:cli"
+
+[project.urls]
+Homepage = "https://earlyforge.ai"
+Documentation = "https://docs.earlyforge.ai/guides/api/trends-api"
+
+[tool.setuptools.packages.find]
+include = ["earlyforge_cli*"]

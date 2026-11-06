@@ -1,0 +1,27 @@
+{
+  "name": "earlyforge-pulse-sdk",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript client for the EarlyForge Pulse API (free trend data, authenticated)",
+  "type": "module",
+  "main": "./dist/client.js",
+  "types": "./dist/client.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/client.js",
+      "types": "./dist/client.d.ts"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "homepage": "https://docs.earlyforge.ai/guides/api/javascript-sdk",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
